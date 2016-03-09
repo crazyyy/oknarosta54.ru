@@ -139,7 +139,7 @@ html[xmlns] .slides {
     text-indent: -9999px;
 
     opacity: 0;
-    background: url(bg_direction_nav.png) no-repeat 0 0;
+    background: url(../img/bg_direction_nav.png) no-repeat 0 0;
   }
   .flex-next {
     right: -36px;
@@ -270,8 +270,7 @@ html[xmlns] .slides {
 
   border: 0;
   background: none;
-  -webkit-box-shadow: none;
-     -moz-box-shadow: none;
+
           box-shadow: none;
 
        -o-box-shadow: none;

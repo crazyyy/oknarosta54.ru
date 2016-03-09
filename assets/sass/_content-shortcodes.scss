@@ -470,35 +470,35 @@
 
 .su-button-style-soft {
   span {
-    background: 0 -20px url('../images/styles/style-soft.png') repeat-x;
+    background: 0 -20px url('../img/style-soft.png') repeat-x;
   }
   &:hover span {
-    background: 0 0 url('../images/styles/style-soft.png') repeat-x;
+    background: 0 0 url('../img/style-soft.png') repeat-x;
   }
 }
 
 .su-button-style-glass {
   span {
-    background: 0 50% url('../images/styles/style-glass.png') repeat-x;
+    background: 0 50% url('../img/style-glass.png') repeat-x;
   }
   &:hover span {
-    background: 100% 50% url('../images/styles/style-glass.png') repeat-x;
+    background: 100% 50% url('../img/style-glass.png') repeat-x;
   }
 }
 
 .su-button-style-bubbles {
   span {
-    background: 0 50% url('../images/styles/style-bubbles.png') no-repeat;
+    background: 0 50% url('../img/style-bubbles.png') no-repeat;
   }
   &:hover span {
-    background: -710px 50% url('../images/styles/style-bubbles.png') no-repeat;
+    background: -710px 50% url('../img/style-bubbles.png') no-repeat;
   }
 }
 
 .su-button-style-noise {
   span,
   &:hover span {
-    background: 0 0 url('../images/styles/style-noise.png') repeat-x;
+    background: 0 0 url('../img/style-noise.png') repeat-x;
   }
 }
 

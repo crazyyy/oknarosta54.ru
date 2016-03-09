@@ -7,16 +7,14 @@
     padding: 5px;
 
     border: 1px solid #cecece;
-    -webkit-border-radius: 5px;
-       -moz-border-radius: 5px;
+
             border-radius: 5px;
     background: #fff;
     background-image:    -moz-linear-gradient(top, #fff, #fff);
     background-image: -webkit-linear-gradient(top, #fff, #fff);
     background-image:      -o-linear-gradient(top, #fff, #fff);
     background-image:         linear-gradient(to bottom, #fff, #fff);
-    -webkit-box-shadow: 2px 2px 2px #666;
-       -moz-box-shadow: 2px 2px 2px #666;
+
             box-shadow: 2px 2px 2px #666;
 
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffffffff', GradientType=0);

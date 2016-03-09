@@ -8,10 +8,7 @@
 
   margin-bottom: 1.5em;
 
-  -webkit-backface-visibility: hidden;
-     -moz-backface-visibility: hidden;
-      -ms-backface-visibility: hidden;
-       -o-backface-visibility: hidden;
+
           backface-visibility: hidden;
 }
 
@@ -24,20 +21,13 @@
 
   width: 100%;
 
-  -webkit-transition-timing-function: ease;
-     -moz-transition-timing-function: ease;
-      -ms-transition-timing-function: ease;
-       -o-transition-timing-function: ease;
           transition-timing-function: ease;
   -webkit-transition-duration: 0s;
      -moz-transition-duration: 0s;
       -ms-transition-duration: 0s;
        -o-transition-duration: 0s;
           transition-duration: 0s;
-  -webkit-transition-property: -webkit-transform, left, top;
-     -moz-transition-property:    -moz-transform, left, top;
-      -ms-transition-property:     -ms-transform, left, top;
-       -o-transition-property:      -o-transform, left, top;
+
           transition-property:         transform, left, top;
   -webkit-transform: translate3d(0px, 0, 0);
      -moz-transform: translate3d(0px, 0, 0);
@@ -156,7 +146,7 @@
   -webkit-border-radius: 50%;
      -moz-border-radius: 50%;
           border-radius: 50%;
-  background: rgb(0, 0, 0) 0 0 url('../images/swiper/default.png') no-repeat;
+  background: rgb(0, 0, 0) 0 0 url('../img/default.png') no-repeat;
   background-color: rgba(0, 0, 0, .5);
 
   filter: alpha(opacity = 0);
@@ -246,7 +236,7 @@
   -webkit-border-radius: 50%;
      -moz-border-radius: 50%;
           border-radius: 50%;
-  background: rgb(0, 0, 0) 0 -999px url('../images/swiper/default.png') no-repeat;
+  background: rgb(0, 0, 0) 0 -999px url('../img/default.png') no-repeat;
   background-color: rgba(0, 0, 0, .5);
 
   -ie-transition: all .2s;
@@ -435,7 +425,7 @@
     -webkit-border-radius: 50%;
        -moz-border-radius: 50%;
             border-radius: 50%;
-    background: rgb(0, 0, 0) 0 0 url('../images/swiper/default.png') no-repeat;
+    background: rgb(0, 0, 0) 0 0 url('../img/default.png') no-repeat;
     background-color: rgba(0, 0, 0, .5);
 
     filter: alpha(opacity = 0);
@@ -517,7 +507,7 @@
     -webkit-border-radius: 50%;
        -moz-border-radius: 50%;
             border-radius: 50%;
-    background: rgb(0, 0, 0) 0 -999px url('../images/swiper/default.png') no-repeat;
+    background: rgb(0, 0, 0) 0 -999px url('../img/default.png') no-repeat;
     background-color: rgba(0, 0, 0, .5);
 
     -ie-transition: all .2s;
