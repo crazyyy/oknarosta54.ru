@@ -1,0 +1,117 @@
+.postTabs_divs {
+  padding: 4px;
+}
+
+.postTabs_titles {
+  display: none;
+}
+
+ul.postTabs {
+  font-size: 11px;
+  line-height: normal;
+
+  display: block !important;
+
+  margin: 0 0 1em !important;
+  padding: .2em 1em .3em 0 !important;
+
+  list-style-type: none !important;
+
+  text-align: center;
+
+  border-bottom: 1px solid #000 !important;
+  background: none;
+  li {
+    font-size: 17px;
+    line-height: normal;
+
+    display: inline !important;
+
+    margin: 0;
+    padding: 0;
+
+    background: none;
+    &:before {
+      content: none;
+    }
+    a {
+      padding: .2em .4em !important;
+
+      cursor: pointer;
+      text-decoration: none;
+
+      color: #fff !important;
+      border: 1px solid #000 !important;
+      /* ╨╖╨░╨║╤А╤Г╨│╨╗╨╡╨╜╨╕╨╡ ╨┤╨╗╤П ╤Б╤В╨░╤А╤Л╤Е Mozilla Firefox */
+      -webkit-border-radius: 7px 7px 0 0;
+         -moz-border-radius: 7px 7px 0 0;
+      outline: none;
+      background: #f00;
+      /* ╨╖╨░╨║╤А╤Г╨│╨╗. ╨┤╨╗╤П ╤Б╤В╨░╤А╤Л╤Е Chrome ╨╕ Safari */
+
+      -khtml-border-radius: 7px 7px 0 0;
+    }
+    &.postTabs_curr a {
+      text-decoration: none;
+
+      color: #000 !important;
+      border-bottom: 1px solid #fff !important;
+      background: #fff;
+    }
+    a:hover {
+      text-decoration: none;
+
+      color: #000 !important;
+      background: #cfcfcf;
+    }
+  }
+}
+
+.postTabsNavigation {
+  display: block !important;
+  overflow: hidden;
+}
+
+.postTabs_nav_next {
+  float: right;
+}
+
+.postTabs_nav_prev {
+  float: left;
+}
+
+/* Voyage CSS Style (Theme Options)*/
+
+.container_12,
+.container_16 {
+  width: 1120px;
+}
+
+#wrapper {
+  min-width: 1120px;
+}
+
+.featured .carousel-inner {
+  .small-thumbnail,
+  .no-thumbnail,
+  .item {
+    height: 300px;
+  }
+}
+
+.featured-blog .carousel-inner .item {
+  height: 300px;
+}
+
+#site-title,
+#site-description {
+  position: absolute !important;
+
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+#content > #center > .dose > .dosesingle,
+#content > #right > .dose > .dosesingle {
+  display: none !important;
+}
