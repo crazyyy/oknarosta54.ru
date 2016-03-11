@@ -1,7 +1,7 @@
 /* if work with html set TRUE, else - FALSE */
-var htmlOWp = true,
+var htmlOWp = false,
   // set wordpress template folder
-  wpThemeName = 'wp-oknarosta',
+  wpThemeName = 'voyage',
   // and set wordpress domain
   wpDomain = 'oknarosta54.dev';
 
