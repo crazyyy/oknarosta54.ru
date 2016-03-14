@@ -128,84 +128,12 @@
               <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a>
               <div class="nav-collapse">
                 <div class="section-menu-container">
-                  <ul id="menu-glavnoe-menyu-sajta" class="nav">
-                    <li id="nav-menu-item-1300" class="main-menu-item  menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item"><a href="http://oknarosta54.ru/" class="menu-link">ГЛАВНАЯ</a></li>
-                    <li id="nav-menu-item-2889" class="main-menu-item  menu-item-depth-0 parent dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="http://oknarosta54.ru/produktsiya/" class="menu-link">ПРОДУКЦИЯ</a><a class="dropdown-toggle" data-toggle="dropdown" href="#"><b class="caret"></b></a>
-                      <ul class="dropdown-menu menu-depth-1">
-                        <li id="nav-menu-item-1277" class="sub-menu-item dropdown-submenu menu-item-depth-1 parent dropdown menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="http://oknarosta54.ru/produktsiya/zhalyuzi/" class="menu-link">Жалюзи</a>
-                          <ul class="dropdown-menu menu-depth-2">
-                            <li id="nav-menu-item-1278" class="sub-menu-item  menu-item-depth-2 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/zhalyuzi/vertikalnye/" class="menu-link">Вертикальные жалюзи</a></li>
-                            <li id="nav-menu-item-1279" class="sub-menu-item  menu-item-depth-2 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/zhalyuzi/gorizontalnye/" class="menu-link">Горизонтальные жалюзи</a></li>
-                            <li id="nav-menu-item-1281" class="sub-menu-item  menu-item-depth-2 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/zhalyuzi/zhalyuzi-plisse/" class="menu-link">Жалюзи ПЛИССЕ / ГОФРЕ</a></li>
-                            <li id="nav-menu-item-1284" class="sub-menu-item  menu-item-depth-2 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/zhalyuzi/rulonnye/" class="menu-link">Рулонные жалюзи</a></li>
-                            <li id="nav-menu-item-1286" class="sub-menu-item  menu-item-depth-2 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/zhalyuzi/rulonnye-zhalyuzi-zebra/" class="menu-link">Рулонные жалюзи «ЗЕБРА»</a></li>
-                            <li id="nav-menu-item-2895" class="sub-menu-item  menu-item-depth-2 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/zhalyuzi/fotopechat-na-zhalyuzi/" class="menu-link">Фотопечать на жалюзи</a></li>
-                            <li id="nav-menu-item-1282" class="sub-menu-item dropdown-submenu menu-item-depth-2 parent dropdown menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="http://oknarosta54.ru/produktsiya/katalog-tkanej/" class="menu-link">Каталог тканей для жалюзи</a>
-                              <ul class="dropdown-menu menu-depth-3">
-                                <li id="nav-menu-item-3348" class="sub-menu-item  menu-item-depth-3 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/katalog-tkanej/katalog-tkanej-dlya-rulonnyh-zhalyuzi-1/" class="menu-link">Каталог тканей для рулонных жалюзи</a></li>
-                                <li id="nav-menu-item-2815" class="sub-menu-item  menu-item-depth-3 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/katalog-tkanej/katalog-tkanej-dlya-zhalyuzi-zebra/" class="menu-link">Каталог тканей для жалюзи «ЗЕБРА»</a></li>
-                                <li id="nav-menu-item-7178" class="sub-menu-item  menu-item-depth-3 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/katalog-tkanej/plisse/" class="menu-link">Каталог тканей для жалюзи «ПЛИССЕ»</a></li>
-                                <li id="nav-menu-item-7179" class="sub-menu-item  menu-item-depth-3 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/katalog-tkanej/katalog-vertik/" class="menu-link">Каталог материалов для вертикальных жалюзи</a></li>
-                              </ul>
-                            </li>
-                          </ul>
-                        </li>
-                        <li id="nav-menu-item-1598" class="sub-menu-item dropdown-submenu menu-item-depth-1 parent dropdown menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="http://oknarosta54.ru/produktsiya/plastikovye-okna/" class="menu-link">Пластиковые окна</a>
-                          <ul class="dropdown-menu menu-depth-2">
-                            <li id="nav-menu-item-5182" class="sub-menu-item  menu-item-depth-2 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/plastikovye-okna/eksk-otd/" class="menu-link">Эксклюзивная отделка</a></li>
-                            <li id="nav-menu-item-6018" class="sub-menu-item  menu-item-depth-2 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/plastikovye-okna/ekonom/" class="menu-link">ОКНО «ЭКОНОМ»</a></li>
-                            <li id="nav-menu-item-4899" class="sub-menu-item  menu-item-depth-2 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/plastikovye-okna/universal/" class="menu-link">ОКНО «УНИВЕРСАЛ»</a></li>
-                            <li id="nav-menu-item-4900" class="sub-menu-item  menu-item-depth-2 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/plastikovye-okna/okno-standart/" class="menu-link">ОКНО «СТАНДАРТ»</a></li>
-                            <li id="nav-menu-item-4898" class="sub-menu-item  menu-item-depth-2 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/plastikovye-okna/premium/" class="menu-link">ОКНО «ПРЕМИУМ»</a></li>
-                            <li id="nav-menu-item-4897" class="sub-menu-item  menu-item-depth-2 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/plastikovye-okna/okno-dlya-dachi/" class="menu-link">ОКНО «ДЛЯ ДАЧИ»</a></li>
-                            <li id="nav-menu-item-1599" class="sub-menu-item  menu-item-depth-2 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/plastikovye-okna/montazh-plastikovyh-okon/" class="menu-link">Монтаж пластиковых окон</a></li>
-                            <li id="nav-menu-item-1516" class="sub-menu-item  menu-item-depth-2 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/plastikovye-okna/tseny-na-osteklenie-pod-klyuch/" class="menu-link">Цены на остекление «под ключ»</a></li>
-                          </ul>
-                        </li>
-                        <li id="nav-menu-item-4462" class="sub-menu-item dropdown-submenu menu-item-depth-1 parent dropdown menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="http://oknarosta54.ru/produktsiya/rollety-rafshtory/" class="menu-link">Роллеты/Рафшторы</a>
-                          <ul class="dropdown-menu menu-depth-2">
-                            <li id="nav-menu-item-6262" class="sub-menu-item  menu-item-depth-2 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/rollety-rafshtory/rolletnye-sistemy/operativnyj-remont-rolstaven/" class="menu-link">Оперативный ремонт рольставен</a></li>
-                            <li id="nav-menu-item-4463" class="sub-menu-item  menu-item-depth-2 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/rollety-rafshtory/rolletnye-sistemy/" class="menu-link">Роллеты</a></li>
-                            <li id="nav-menu-item-4464" class="sub-menu-item  menu-item-depth-2 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/rollety-rafshtory/rafshtory/" class="menu-link">Рафшторы</a></li>
-                          </ul>
-                        </li>
-                        <li id="nav-menu-item-1517" class="sub-menu-item dropdown-submenu menu-item-depth-1 parent dropdown menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="http://oknarosta54.ru/produktsiya/vorota/" class="menu-link">Автоматические ворота</a>
-                          <ul class="dropdown-menu menu-depth-2">
-                            <li id="nav-menu-item-5483" class="sub-menu-item  menu-item-depth-2 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/vorota/vorota-standart/" class="menu-link">ВОРОТА «СТАНДАРТ»</a></li>
-                            <li id="nav-menu-item-5482" class="sub-menu-item  menu-item-depth-2 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/vorota/vorota-ekonom/" class="menu-link">ВОРОТА «ЭКОНОМ»</a></li>
-                            <li id="nav-menu-item-5481" class="sub-menu-item  menu-item-depth-2 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/vorota/vorota-elit/" class="menu-link">ВОРОТА «ЭЛИТ»</a></li>
-                            <li id="nav-menu-item-5480" class="sub-menu-item  menu-item-depth-2 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/vorota/vorota-dachi/" class="menu-link">ВОРОТА «ДЛЯ ДАЧИ»</a></li>
-                            <li id="nav-menu-item-5758" class="sub-menu-item  menu-item-depth-2 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/vorota/otkatnye-vorota/" class="menu-link">ВОРОТА ОТКАТНЫЕ</a></li>
-                            <li id="nav-menu-item-5820" class="sub-menu-item  menu-item-depth-2 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/vorota/avtomatika/" class="menu-link">АВТОМАТИКА</a></li>
-                          </ul>
-                        </li>
-                        <li id="nav-menu-item-1294" class="sub-menu-item  menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/shlagbaumy/" class="menu-link">Шлагбаумы</a></li>
-                      </ul>
-                    </li>
-                    <li id="nav-menu-item-2820" class="main-menu-item  menu-item-depth-0 parent dropdown menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="http://oknarosta54.ru/produktsiya/katalog-tkanej/" class="menu-link">КАТАЛОГ ТКАНЕЙ</a><a class="dropdown-toggle" data-toggle="dropdown" href="#"><b class="caret"></b></a>
-                      <ul class="dropdown-menu menu-depth-1">
-                        <li id="nav-menu-item-3347" class="sub-menu-item  menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/katalog-tkanej/katalog-tkanej-dlya-rulonnyh-zhalyuzi-1/" class="menu-link">Каталог тканей для рулонных жалюзи</a></li>
-                        <li id="nav-menu-item-2821" class="sub-menu-item  menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/katalog-tkanej/katalog-tkanej-dlya-zhalyuzi-zebra/" class="menu-link">Каталог тканей для жалюзи «ЗЕБРА»</a></li>
-                        <li id="nav-menu-item-6916" class="sub-menu-item  menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/katalog-tkanej/plisse/" class="menu-link">Каталог тканей для жалюзи «ПЛИССЕ»</a></li>
-                        <li id="nav-menu-item-6641" class="sub-menu-item  menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/produktsiya/katalog-tkanej/katalog-vertik/" class="menu-link">Каталог материалов для вертикальных жалюзи</a></li>
-                      </ul>
-                    </li>
-                    <li id="nav-menu-item-381" class="main-menu-item  menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/servis/" class="menu-link">СЕРВИС</a></li>
-                    <li id="nav-menu-item-1816" class="main-menu-item  menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://oknarosta54.ru/category/aktsii/" class="menu-link">АКЦИИ</a></li>
-                    <li id="nav-menu-item-379" class="main-menu-item  menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/o-kompanii/" class="menu-link">О КОМПАНИИ</a></li>
-                    <li id="nav-menu-item-1027" class="main-menu-item  menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/o-kompanii/otzyvy/" class="menu-link">ОТЗЫВЫ</a></li>
-                    <li id="nav-menu-item-7174" class="main-menu-item  menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/poleznoe/" class="menu-link">ПОЛЕЗНОЕ</a></li>
-                    <li id="nav-menu-item-380" class="main-menu-item  menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/dileram/" class="menu-link">ДИЛЕРАМ</a></li>
-                    <li id="nav-menu-item-894" class="main-menu-item  menu-item-depth-0 parent dropdown menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="http://oknarosta54.ru/kontakty/" class="menu-link">КОНТАКТЫ</a><a class="dropdown-toggle" data-toggle="dropdown" href="#"><b class="caret"></b></a>
-                      <ul class="dropdown-menu menu-depth-1">
-                        <li id="nav-menu-item-1037" class="sub-menu-item  menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/kontakty/ofis-na-ul-blyuhera/" class="menu-link">Офис на ул.Блюхера</a></li>
-                        <li id="nav-menu-item-1036" class="sub-menu-item  menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/kontakty/ofis-na-krasnom-prospekte/" class="menu-link">Офис на Красном проспекте</a></li>
-                        <li id="nav-menu-item-1035" class="sub-menu-item  menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/kontakty/ofis-na-ul-ivanova/" class="menu-link">Офис в Академгородке</a></li>
-                        <li id="nav-menu-item-1034" class="sub-menu-item  menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/kontakty/ul-lenina-89/" class="menu-link">Офис на ул. Ленина</a></li>
-                        <li id="nav-menu-item-1463" class="sub-menu-item  menu-item-depth-1 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://oknarosta54.ru/kontakty/ofis-na-ul-kirzavodskaya/" class="menu-link">Офис на ул.Кирзаводская</a></li>
-                      </ul>
-                    </li>
-                  </ul>
+
+
+                  <?php wpeHeadNav(); ?>
+
+
+
                 </div>
               </div>
             </nav>

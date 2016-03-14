@@ -5335,3 +5335,144 @@ ul.postTabs {
 
   filter: alpha(opacity = 100);
 }
+
+.section-menu-container {
+  ul {
+    position: relative;
+    left: 0;
+
+    display: block;
+    float: left;
+
+    margin: 0 10px 0 0;
+
+    list-style-type: none;
+    &.sub-menu {
+      position: absolute;
+      z-index: 1000;
+      top: 100%;
+      left: 0;
+
+      display: none;
+      float: left;
+
+      min-width: 350px;
+      margin: 2px 0 0;
+      margin-top: 0;
+      padding: 5px 0;
+
+      list-style: none;
+
+      border: 1px solid #ccc;
+      border: 1px solid rgba(0,0,0,.2);
+      border-radius: 6px;
+      background-color: #fff;
+      background-clip: padding-box;
+      box-shadow: 0 5px 10px rgba(0,0,0,.2);
+      &:before {
+        position: absolute;
+        top: -7px;
+        left: 9px;
+
+        display: inline-block;
+
+        content: '';
+
+        border-right: 7px solid transparent;
+        border-bottom: 7px solid #ccc;
+        border-bottom-color: rgba(0,0,0,.2);
+        border-left: 7px solid transparent;
+      }
+      li {
+        display: block;
+        float: none;
+
+        width: 100%;
+        a {
+          font-weight: 400;
+          line-height: 20px;
+
+          display: block;
+          clear: both;
+
+          padding: 8px 20px;
+
+          white-space: nowrap;
+          text-transform: none;
+
+          color: #000;
+        }
+        .sub-menu {
+          position: absolute;
+          z-index: 1000;
+          top: 0;
+          left: 100%;
+
+          display: none;
+          float: left;
+
+          min-width: 160px;
+          margin: 2px 0 0;
+          margin-top: -6px;
+          margin-left: -1px;
+          padding: 5px 0;
+
+          list-style: none;
+
+          border: 1px solid #ccc;
+          border: 1px solid rgba(0,0,0,.2);
+          border-radius: 0 6px 6px 6px;
+          background-color: #fff;
+          background-clip: padding-box;
+          box-shadow: 0 5px 10px rgba(0,0,0,.2);
+          li {
+            a {
+              font-weight: normal;
+              line-height: 20px;
+
+              display: block;
+              float: none;
+              clear: both;
+
+              padding: 8px 20px;
+
+              white-space: nowrap;
+
+              color: #000;
+            }
+          }
+        }
+        &:hover {
+          > a {
+            text-decoration: none;
+
+            color: #fff;
+            background-color: red;
+            background-image: linear-gradient(to bottom,#ffc5c5,red);
+            background-repeat: repeat-x;
+          }
+        }
+      }
+    }
+    li {
+      position: relative;
+
+      float: left;
+      a {
+        float: none;
+
+        padding: 5px 11px;
+
+        text-decoration: none;
+        text-transform: uppercase;
+
+        color: #000;
+      }
+      &:hover {
+        > .sub-menu {
+          display: block;
+        }
+      }
+    }
+  }
+}

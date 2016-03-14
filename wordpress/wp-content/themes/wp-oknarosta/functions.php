@@ -89,6 +89,12 @@ if (function_exists('add_theme_support')) {
   // Localisation Support
   load_theme_textdomain('wpeasy', get_template_directory() . '/languages');
 }
+/* Content Filter: Remove image from post*/
+function remove_images( $content ) {
+   $postOutput = preg_replace('/<img[^>]+./','', $content);
+   return $postOutput;
+}
+
 
 // WPE head navigation
 function wpeHeadNav() {
@@ -107,7 +113,7 @@ function wpeHeadNav() {
     'after'           => '',
     'link_before'     => '',
     'link_after'      => '',
-    'items_wrap'      => '<ul class="headnav">%3$s</ul>',
+    'items_wrap'      => '<ul id="menu-glavnoe-menyu-sajta" class="nav">%3$s</ul>',
     'depth'           => 0,
     'walker'          => ''
     )
