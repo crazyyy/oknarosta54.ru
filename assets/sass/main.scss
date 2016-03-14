@@ -5347,6 +5347,14 @@ ul.postTabs {
     margin: 0 10px 0 0;
 
     list-style-type: none;
+    > li {
+      &.current-menu-item {
+        border-radius: 8px;
+        background-color: #f5f9fe;
+        background-image: linear-gradient(to bottom, #fff, #e6e6e6);
+        box-shadow: inset 2px 2px  #c2c2c2;
+      }
+    }
     &.sub-menu {
       position: absolute;
       z-index: 1000;
