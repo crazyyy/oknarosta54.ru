@@ -1,149 +1,4 @@
-<!doctype html>
-
-<!--[if lt IE 7 ]> <html class="no-js ie6" lang="ru-RU"> <![endif]-->
-<!--[if IE 7 ]>    <html class="no-js ie7" lang="ru-RU"> <![endif]-->
-<!--[if IE 8 ]>    <html class="no-js ie8" lang="ru-RU"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html <?php language_attributes(); ?> class="js textshadow">
-<!--<![endif]-->
-<head>
-
-  <meta charset="<?php bloginfo( 'charset' ); ?>">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title><?php wp_title( '' ); ?><?php if ( wp_title( '', false ) ) { echo ' :'; } ?> <?php bloginfo( 'name' ); ?></title>
-
-  <link href="http://www.google-analytics.com/" rel="dns-prefetch"><!-- dns prefetch -->
-
-  <!-- icons -->
-  <link href="<?php echo get_template_directory_uri(); ?>/favicon.ico" rel="shortcut icon">
-
-  <!--[if lt IE 9]>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/html5shiv.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/selectivizr.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/respond.js"></script>
-  <![endif]-->
-  <!-- css + javascript -->
-  <?php wp_head(); ?>
-
-
-  <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-migrate.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/modernizr.js"></script>
-
-  <script src="<?php echo get_template_directory_uri(); ?>/js/jquery_form.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/jquery_infinite_scroll.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.js"></script>
-
-  <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.colorbox.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/prettify.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/voyage.js"></script>
-
-  <script>
-    jQuery(document).ready(function($) {
-      $(".carousel").carousel({
-        interval: 8000
-      })
-    });
-  </script>
-<!--   <script>
-    var metaslider_448 = function($) {
-      $('#metaslider_448').flexslider({
-        slideshowSpeed: 6000,
-        animation: "slide",
-        controlNav: false,
-        directionNav: true,
-        pauseOnHover: true,
-        direction: "horizontal",
-        reverse: false,
-        animationSpeed: 600,
-        prevText: "&lt;",
-        nextText: "&gt;",
-        easing: "linear",
-        slideshow: true
-      });
-    };
-    var timer_metaslider_448 = function() {
-      var slider = !window.jQuery ? window.setTimeout(timer_metaslider_448, 100) : !jQuery.isReady ? window.setTimeout(timer_metaslider_448, 1) : metaslider_448(window.jQuery);
-    };
-    timer_metaslider_448();
-  </script>
-  <script>
-    var metaslider_2551 = function($) {
-      $('#metaslider_2551').flexslider({
-        slideshowSpeed: 6000,
-        animation: "slide",
-        controlNav: false,
-        directionNav: false,
-        pauseOnHover: true,
-        direction: "horizontal",
-        reverse: false,
-        animationSpeed: 600,
-        prevText: "&lt;",
-        nextText: "&gt;",
-        easing: "linear",
-        slideshow: true
-      });
-    };
-    var timer_metaslider_2551 = function() {
-      var slider = !window.jQuery ? window.setTimeout(timer_metaslider_2551, 100) : !jQuery.isReady ? window.setTimeout(timer_metaslider_2551, 1) : metaslider_2551(window.jQuery);
-    };
-    timer_metaslider_2551();
-  </script> -->
-
-</head>
-
-<body <?php body_class(); ?>>
-  <div id="wrapper" class="hfeed">
-    <header id="masthead" class="site-header clearfix">
-      <div class="screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
-      <div id="access" class="navbar navbar-no-background clearfix">
-        <div class="navbar-inner">
-          <div class="container_16"></div>
-        </div>
-      </div>
-      <div id="branding" class="container_16 clearfix">
-        <div class="grid_16 clearfix">
-          <div id="header-widget" class="pull-right widget-area">
-            <ul class="xoxo">
-              <li id="execphp-2" class="widget-container widget_execphp">
-                <div class="execphpwidget">
-                  <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/main-img4.png" title="" border="0" height="124.79414455627" width="1100"></a>
-                </div>
-              </li>
-            </ul>
-          </div>
-
-          <hgroup>
-            <h3 id="site-title"><a href="<?php echo home_url(); ?>" title="" rel="home"></a></h3>
-            <h3 id="site-description"></h3>
-          </hgroup>
-
-        </div>
-      </div>
-      <div id="mainmenu" class="navbar clearfix">
-        <div class="container_16">
-          <div class="navbar-inner">
-            <nav id="section-menu" class="section-menu">
-              <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a>
-              <div class="nav-collapse">
-                <div class="section-menu-container">
-
-
-                  <?php wpeHeadNav(); ?>
-
-
-
-                </div>
-              </div>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <div id="main">
-
+<?php /* Template Name: Home Page */ get_header(); ?>
       <div id="title" class="titlebar clearfix">
         <div class="container_16">
           <div class="grid_16">
@@ -254,8 +109,7 @@
                     <td style="text-align: center;" valign="top">
                       <a href="http://oknarosta54.ru/produktsiya/rollety-rafshtory/"><img class="post_img  post-body round aligncenter wp-image-253" style="border: 6px solid #ff0000;" title="Роллеты Рафшторы" src="<?php echo get_template_directory_uri(); ?>/img/01.jpg" alt="Роллеты Рафшторы" height="140" width="140"></a>
                       <p></p>
-                      <h4><span style="text-decoration: underline;"><span style="color: #333399;"><strong><a style="color: #333399; text-decoration: underline;" href="http://oknarosta54.ru/produktsiya/rollety-rafshtory/">Роллеты<br>
-Рафшторы</a></strong></span></span></h4>
+                      <h4><span style="text-decoration: underline;"><span style="color: #333399;"><strong><a style="color: #333399; text-decoration: underline;" href="http://oknarosta54.ru/produktsiya/rollety-rafshtory/">Роллеты<br>Рафшторы</a></strong></span></span></h4>
                     </td>
                     <td style="text-align: center;" valign="top">
                       <a href="http://oknarosta54.ru/produktsiya/vorota/"><img class="post_img  post-body round aligncenter wp-image-254" style="border: 6px solid #ff0000;" title="Автоматические ворота" src="<?php echo get_template_directory_uri(); ?>/img/9.jpg" alt="Автоматические ворота" height="140" width="140"></a>
@@ -269,9 +123,7 @@
                     </td>
                     <td style="text-align: center; vertical-align: top;" valign="top">
                       <h4><span style="text-decoration: underline; color: #333399;"><a href="http://oknarosta54.ru/produktsiya/rollety-rafshtory/rolletnye-sistemy/operativnyj-remont-rolstaven/"><img class="post_img  post-body round aligncenter wp-image-6261" style="border: 6px solid #ff0000;" title="Оперативный ремонт рольставен" src="<?php echo get_template_directory_uri(); ?>/img/icon-skorp.jpg" alt="Оперативный ремонт рольставен" height="140" width="140"></a></span></h4>
-                      <h4><span style="text-decoration: underline;"><span style="color: #333399; text-decoration: underline;"><strong><a style="color: #333399; text-decoration: underline;" href="http://oknarosta54.ru/produktsiya/rollety-rafshtory/rolletnye-sistemy/operativnyj-remont-rolstaven/">Оперативный<br>
-</a></strong><strong><a style="color: #333399; text-decoration: underline;" href="http://oknarosta54.ru/produktsiya/rollety-rafshtory/rolletnye-sistemy/operativnyj-remont-rolstaven/">ремонт<br>
-</a></strong><a style="color: #333399; text-decoration: underline;" href="http://oknarosta54.ru/produktsiya/rollety-rafshtory/rolletnye-sistemy/operativnyj-remont-rolstaven/"><strong>рольставен</strong></a></span></span></h4>
+                      <h4><span style="text-decoration: underline;"><span style="color: #333399; text-decoration: underline;"><strong><a style="color: #333399; text-decoration: underline;" href="http://oknarosta54.ru/produktsiya/rollety-rafshtory/rolletnye-sistemy/operativnyj-remont-rolstaven/">Оперативный<br></a></strong><strong><a style="color: #333399; text-decoration: underline;" href="http://oknarosta54.ru/produktsiya/rollety-rafshtory/rolletnye-sistemy/operativnyj-remont-rolstaven/">ремонт<br></a></strong><a style="color: #333399; text-decoration: underline;" href="http://oknarosta54.ru/produktsiya/rollety-rafshtory/rolletnye-sistemy/operativnyj-remont-rolstaven/"><strong>рольставен</strong></a></span></span></h4>
                       <h4></h4>
                     </td>
                   </tr>
@@ -281,14 +133,10 @@
                 <tbody>
                   <tr>
                     <td colspan="2">
-                      <h4 style="text-align: center;"><strong>Компания «Окна роста»<sup>тм</sup>&nbsp;более двадцати&nbsp;лет помогает людям обустраивать свои дома,&nbsp;являясь производителем</strong></h4>
-                      <h4 style="text-align: center;"><span style="color: #333333;"><strong> <span style="color: #333399;"><em><span style="text-decoration: underline;"><a style="color: #333399; text-decoration: underline;" href="http://oknarosta54.ru/produktsiya/plastikovye-okna/">пластиковых окон</a></span></em></span>, <span style="text-decoration: underline; color: #333399;"><em><a style="color: #333399; text-decoration: underline;" href="http://oknarosta54.ru/produktsiya/zhalyuzi/">жалюзи</a></em></span>, <span style="color: #333399;"><em><span style="text-decoration: underline;"><a style="color: #333399; text-decoration: underline;" href="http://oknarosta54.ru/produktsiya/vorota/">ворот</a></span></em></span>,&nbsp;<span style="text-decoration: underline; color: #333399;"><em><a style="color: #333399; text-decoration: underline;" href="http://oknarosta54.ru/produktsiya/rolletnye-sistemy/">рольставен</a></em></span> и <span style="text-decoration: underline; color: #333399;"><em><a style="color: #333399; text-decoration: underline;" href="http://oknarosta54.ru/produktsiya/shlagbaumy/">шлагбаумов</a></em></span>.</strong></span></h4>
-                      <p style="text-align: justify;">«Окна роста»тм – это производственный комплекс, имеющий сеть офисов продаж, удобно расположенных в разных районах Новосибирска и Бердска. А развитая дилерская сеть, дает возможность купить наши изделия на всей территории Сибири.</p>
-                      <p style="text-align: justify;">Для Вас широкий ассортимент выпускаемых изделий, позволяющий нам делать интересные предложения клиентам самого разного достатка. Мы изготавливаем окна по индивидуальным размерам, учитывая все потребности клиента как для жилых помещений (будь
-                        то дачный дом, типовая квартира или элитный коттедж), так для офисных или производственных зданий.</p>
-                      <p style="text-align: justify;">Практичным и современным дополнением для ваших новых окон станут солнцезащитные жалюзи, которые надежно защитят Вас от яркого света и тепловых потоков, а так же являются современной альтернативой шторам. Они просты в уходе, так например все
-                        ткани (в рулонных, вертикальных жалюзи) имеют пыле и влагоотталкивающую пропитку.</p>
-                      <p style="text-align: justify;">Чтобы защитить ваши окна от погодных сюрпризов и обеспечить дополнительную звукоизоляцию, мы предлагаем установить рольставни, а для защиты имущества от непрошеных гостей и для вашего собственного удобства – автоматические гаражные ворота.</p>
+                      <h4 style="text-align: center;">
+                        <?php the_field('content_title'); ?>
+                      </h4>
+                      <?php the_content(); ?>
                     </td>
                   </tr>
                   <tr>
@@ -332,11 +180,7 @@
                       </p>
                     </td>
                     <td>
-                      <p style="text-align: justify;">Для нас важно, чтобы Вы остались довольны выполненной нами работой. Изготовить и установить окна, жалюзи, рольставни, ворота — это не проблема, если этим занимаются профессионалы своего дела. К Вашим услугам штат специалистов компании – от
-                        менеджеров до монтажников, которые помогут подобрать вам наиболее подходящий вариант и реализуют Ваши желания.</p>
-                      <p style="text-align: justify;">Мы ценим время и хорошее настроение своих клиентов и делаем все, чтобы Вам захотелось обратиться в <strong>«Окна роста»<sup>тм</sup></strong>&nbsp;еще не раз. Поэтому, чтобы сделать заказ, достаточно позвонить в офис компании и наш специалист
-                        приедет к вам для проведения замеров*,а затем и для установки изделий в удобное для вас время.</p>
-                      <p style="text-align: justify;"><em>* Выезд на замер в пределах города – бесплатный при условии, что монтаж и установка будут выполнены нашей компанией.</em></p>
+                    <?php the_field('bottom_content'); ?>
                     </td>
                   </tr>
                 </tbody>
@@ -350,124 +194,5 @@
         </div>
       </div>
       <!-- #container -->
-    </div>
-    <!-- #main -->
-    <div id="footer" role="contentinfo">
-      <div class="container_16 clearfix">
 
-        <div id="footer-widget-area" class="visible-desktop clearfix" role="complementary">
-          <div id="first" class="grid_5 widget-area">
-            <ul class="xoxo">
-              <li id="widget_voyage_recent_post-3" class="widget-container voyage_recent_post">
-                <div class="clear"></div>
-                <h5 class="widget-title">Текущие акции:</h5>
-                <article id="post-7183" class="post-7183 post type-post status-publish format-standard hentry category-aktsii">
-                  <header class="entry-header">
-                    <h2 class="entry-title"><a href="http://oknarosta54.ru/rasprodazha-zhalyuzi-s-neveroyatnoj-skidkoj-50/" title="Permalink to Распродажа жалюзи с невероятной скидкой 50%." rel="bookmark">Распродажа жалюзи с невероятной скидкой 50%.</a></h2>
-                  </header>
-                  <div class="entry-summary clearfix">
-                  </div>
-                </article>
-                <article id="post-6275" class="post-6275 post type-post status-publish format-standard hentry category-aktsii">
-                  <header class="entry-header">
-                    <h2 class="entry-title"><a href="http://oknarosta54.ru/gotovim-okna-k-zime/" title="Permalink to Чтобы зима стала теплее!" rel="bookmark">Чтобы зима стала теплее!</a></h2>
-                  </header>
-                  <div class="entry-summary clearfix">
-                  </div>
-                </article>
-              </li>
-            </ul>
-          </div>
-          <div id="second" class="grid_4 widget-area">
-            <ul class="xoxo">
-              <li id="text-3" class="widget-container widget_text">
-                <h5 class="widget-title">Формы оплаты:</h5>
-                <div class="textwidget"><img class="alignnone size-full wp-image-2036" src="<?php echo get_template_directory_uri(); ?>/img/pay1.png" alt="pay1" height="146" width="227"></div>
-              </li>
-            </ul>
-          </div>
-          <div id="third" class="grid_4 widget-area">
-            <ul class="xoxo">
-              <li id="text-11" class="widget-container widget_text">
-                <h5 class="widget-title">УЗНАВАЙТЕ О НОВОСТЯХ И АКЦИЯХ ПЕРВЫМ</h5>
-                <div class="textwidget">
-                  <p></p><span style="text-decoration: underline;"><span style="color: #0000ff;"><a href="http://vk.com/oknarosta54" target="_blank"><img class="alignnone wp-image-315" style="margin-right: 5px; margin-left: 20px;" src="<?php echo get_template_directory_uri(); ?>/img/vkontakte1.png" alt="vkontakte1" height="18" width="18"></a>
-<a style="color: #0000ff; text-decoration: underline;" href="http://vk.com/oknarosta54" target="_blank">http://vk.com/oknarosta54</a></span></span>
-                  <p></p>
-
-                  <strong>КАК СДЕЛАТЬ ДОМ УЮТНЕЕ<br>много интересных подсказок в группе<br> ИНТЕРЬЕРЫ СИБИРИ</strong>
-                  <p></p>
-
-                  <span style="text-decoration: underline;"><span style="color: #0000ff;"><a href="http://vk.com/sibinterier" target="_blank"><img class="alignnone wp-image-315" style="margin-right: 5px; margin-left: 20px;" src="<?php echo get_template_directory_uri(); ?>/img/vkontakte1.png" alt="vkontakte1" height="18" width="18"></a><a style="color: #0000ff; text-decoration: underline;" href="http://vk.com/sibinterier" target="_blank">http://vk.com/sibinterier</a></span></span>
-                  <p></p>
-
-                  <span style="text-decoration: underline;"><span style="color: #0000ff;"><a href="http://ok.ru/group/53673083797749" target="_blank"><img class="alignnone wp-image-316" style="margin-right: 5px; margin-left: 20px;" src="<?php echo get_template_directory_uri(); ?>/img/ok.png" alt="ok" height="18" width="18"></a><a style="color: #0000ff; text-decoration: underline;" href="http://ok.ru/group/53673083797749" target="_blank">http://ok.ru/group/53673083797749</a></span></span>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div id="fourth" class="grid_3 widget-area">
-            <ul class="xoxo">
-              <li id="nav_menu-8" class="widget-container widget_nav_menu">
-                <h5 class="widget-title">Быстрая навигация:</h5>
-                <div class="menu-menyu-podvala-container">
-                  <ul id="menu-menyu-podvala" class="menu">
-                    <li id="menu-item-2142" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item menu-item-2142"><a href="http://oknarosta54.ru/">Главная страница</a></li>
-                    <li id="menu-item-3746" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3746"><a href="http://oknarosta54.ru/category/aktsii/">Акции</a></li>
-                    <li id="menu-item-3745" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3745"><a href="http://oknarosta54.ru/o-kompanii/">О компании</a></li>
-                    <li id="menu-item-2141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2141"><a href="http://oknarosta54.ru/kontakty/">Контакты</a></li>
-                    <li id="menu-item-3743" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3743"><a href="http://oknarosta54.ru/karta-sajta/">Карта сайта</a></li>
-                    <li id="menu-item-6353" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6353"><a href="http://m.oknarosta54.ru/">Мобильная версия</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li id="search-2" class="widget-container widget_search">
-                <form method="get" id="searchform" action="http://oknarosta54.ru/">
-                  <label for="s" class="assistive-text">Поиск...</label>
-                  <input class="search-query" name="s" id="s" placeholder="Поиск..." type="text">
-                  <input class="submit" name="submit" id="searchsubmit" value="Поиск..." type="submit">
-                </form>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div id="site-info" class="grid_8">
-          © 2016<a href="http://oknarosta54.ru/" title="oknarosta54.ru" rel="home">
-      oknarosta54.ru ⇔ </a><a href="http://oknarosta54.ru/">окнароста54.рф</a> &nbsp;&nbsp;
-          <a href="http://oknarosta54.ru/wp-admin/"><img class="alignnone wp-image-2369" src="<?php echo get_template_directory_uri(); ?>/img/Icon-usage.png" alt="Icon-usage" height="16" width="16">
-            <br>
-          </a>Разработка и поддержка сайта: студия <span style="text-decoration: underline; color: #0000ff;"><strong><a style="color: #0000ff; text-decoration: underline;" href="http://sitess.ru/" target="_blank">SITESS</a></strong></span>
-        </div>
-        <!-- #site-info -->
-        <div id="footer-menu" class="grid_16" role="complementary">
-          <div class="footer-menu">
-            <ul id="menu-mob-versiya" class="menu">
-              <li id="menu-item-6352" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6352"><a href="http://m.oknarosta54.ru/">МОБИЛЬНАЯ ВЕРСИЯ САЙТА</a></li>
-            </ul>
-          </div>
-
-        </div>
-        <!-- #site-info -->
-
-        <div id="site-generator" class="grid_8">
-
-
-        </div>
-        <!-- #site-generator -->
-
-      </div>
-      <!-- #footer-container -->
-
-      <div style="display: none;" class="back-to-top"><a href="#masthead"><span class="icon-chevron-up"></span> НАВЕРХ</a></div>
-    </div>
-    <!-- #footer -->
-  </div>
-  <!-- #wrapper -->
-
-
-
-
-
-
-</body>
-</html>
+<?php get_footer(); ?>
