@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
   <div class="container_16 clearfix">
-    <article id="post-7170" class="template-intro clearfix grid_16">
-
-      <h1 class="entry-title">Полезное</h1></article>
+    <article class="template-intro clearfix grid_16">
+      <h1 class="entry-title">Полезное</h1>
+    </article>
 
       <div id="content" class="grid_16 voyage_recent_post portfolio column-3 masonry" role="main">
 
