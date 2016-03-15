@@ -1,11 +1,4 @@
 <?php get_header(); ?>
-  <div id="title" class="titlebar clearfix">
-    <div class="container_16">
-      <div class="grid_16">
-        <?php if (function_exists('easy_breadcrumbs')) easy_breadcrumbs(); ?>
-      </div>
-    </div>
-  </div>
   <div class="container_16 clearfix">
     <div id="content" class="grid_16 fullwidth " role="main">
       <article id="post-150" class="post-150 page type-page status-publish hentry">

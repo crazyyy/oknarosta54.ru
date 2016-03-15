@@ -1,37 +1,33 @@
 <?php get_header(); ?>
-  <?php if (have_posts()): while (have_posts()) : the_post(); ?>
-    <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-      <h1 class="single-title inner-title"><?php the_title(); ?></h1>
-      <?php if ( has_post_thumbnail()) :?>
-        <a class="single-thumb" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-          <?php the_post_thumbnail(); // Fullsize image for the single post ?>
-        </a>
-      <?php endif; ?><!-- /post thumbnail -->
+  <div class="container_16 clearfix">
+    <div id="content" class="grid_12 push_4 " role="main">
 
-      <span class="date"><?php the_time('d F Y'); ?> <?php the_time('H:i'); ?></span>
-      <span class="author"><?php _e( 'Published by', 'wpeasy' ); ?> <?php the_author_posts_link(); ?></span>
-      <span class="comments"><?php comments_popup_link( __( 'Leave your thoughts', 'wpeasy' ), __( '1 Comment', 'wpeasy' ), __( '% Comments', 'wpeasy' )); ?></span><!-- /post details -->
+      <?php if (have_posts()): while (have_posts()) : the_post(); ?>
+        <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-      <?php the_content(); ?>
+          <header class="entry-header">
+            <span class="entry-meta entry-meta-top"><i class="icon-bookmark meta-summary-icon"></i>
+            <span class="entry-category"><span class="meta-cat-prep">Posted in </span><?php the_category(', '); ?></span>
+            </span>
+            <h1 class="entry-title"><?php the_title(); ?></h1>
+          </header>
+          <div class="entry-content clearfix">
+            <?php the_content(); ?>
+          </div>
 
-      <?php the_tags( __( 'Tags: ', 'wpeasy' ), ', ', '<br>'); // Separated by commas with a line break at the end ?>
+          <footer class="entry-footer clearfix">
+            <?php edit_post_link(); ?>
+          </footer>
 
-      <p><?php _e( 'Categorised in: ', 'wpeasy' ); the_category(', '); // Separated by commas ?></p>
+        </article>
+      <?php endwhile; else: ?>
+        <article>
+          <h2 class="page-title inner-title"><?php _e( 'Sorry, nothing to display.', 'wpeasy' ); ?></h2>
+        </article>
+      <?php endif; ?>
 
-      <p><?php _e( 'This post was written by ', 'wpeasy' ); the_author(); ?></p>
-
-      <?php edit_post_link(); ?>
-
-      <?php comments_template(); ?>
-
-    </article>
-  <?php endwhile; else: ?>
-    <article>
-
-      <h2 class="page-title inner-title"><?php _e( 'Sorry, nothing to display.', 'wpeasy' ); ?></h2>
-
-    </article>
-  <?php endif; ?>
-<?php get_sidebar(); ?>
+    </div>
+  <?php get_sidebar(); ?>
+  </div><!-- #container -->
 <?php get_footer(); ?>

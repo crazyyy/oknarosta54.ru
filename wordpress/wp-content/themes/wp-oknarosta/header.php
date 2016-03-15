@@ -138,3 +138,5 @@
     </header>
 
     <div id="main">
+
+      <?php get_template_part('breadcrumbs'); ?>

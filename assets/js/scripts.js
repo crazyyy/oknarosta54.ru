@@ -17,3 +17,20 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+var impressumHeadin = $(".masonry-brick");
+
+SetAllBlocksHeight(impressumHeadin);
+
+function SetAllBlocksHeight(containersNames) {
+
+  var blockHeight = 0;
+
+  $( containersNames ).each(function () {
+    var evenContainerBlock = $(this).height();
+    if (evenContainerBlock > blockHeight) {
+      blockHeight = evenContainerBlock;
+    }
+  });
+  $( containersNames ).css('height', blockHeight)
+
+}
