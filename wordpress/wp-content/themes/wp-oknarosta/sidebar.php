@@ -23,7 +23,6 @@
             else: ?>
             <img src="<?php echo catchFirstImage(); ?>" title="<?php the_title(); ?>" alt="<?php the_title(); ?>" />
             <?php endif; ?>
-            <span class="category-hl">Отдыхаем в Украине</span>
           </a><!-- /post thumbnail -->
           <header class="entry-header">
             <h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
@@ -38,7 +37,7 @@
     </li>
 
 
-    <li id="text-17" class="widget-container widget_text">
+    <li class="widget-container widget_text">
       <div class="textwidget">
         <?php echo do_shortcode('[contact-form-7 id="72" title="Полезный виджет"]'); ?>
       </div>

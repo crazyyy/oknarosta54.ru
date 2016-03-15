@@ -24,7 +24,6 @@
                     $date = DateTime::createFromFormat('Ymd', get_sub_field('date'));
                     $formateddate = $date->format('d.m.Y');
 
-
                     ?>
 
                       <div style="width: 1100px; height: 100%; color: #000; border: 8px #FFFFFF solid; -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml- border-radius: 10px; border-radius: 10px; padding: 5px; box-shadow: 0 0 20px rgba(0,0,0,0.5); -moz-box-shadow: 0 0 20px rgba(0,0,0,0.5); -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);">От:&nbsp;<?php echo $name; ?>
