@@ -647,9 +647,75 @@ function disable_emojicons_tinymce( $plugins ) {
   }
 }
 
+// Add Autoren Post Type
+add_action( 'init', 'post_type_products' );
+function post_type_products() {
 
+  $labels = array(
+    'name' => 'Продукция',
+    'singular_name' => 'Продукция',
+    'add_new' => 'Добавить',
+    'add_new_item' => 'Добавить',
+    'edit' => 'Редактировать',
+    'edit_item' => 'Редактировать',
+    'new-item' => 'Добавить',
+    'view' => 'Посмотреть',
+    'view_item' => 'Посмотреть',
+    'search_items' => 'Искать',
+    'not_found' => 'Not Found',
+    'not_found_in_trash' => 'Not Found',
+    'parent' => 'Родитель'
+  );
 
+  $args = array(
+    'description' => 'Продукция',
+    'show_ui' => true,
+    'menu_position' => 3,
+    'exclude_from_search' => false,
+    'labels' => $labels,
+    'public' => true,
+    'publicly_queryable' => true,
+    'capability_type' => 'post',
+    'hierarchical' => false,
+    'supports' => array('title','editor','thumbnail'),
+    'has_archive' => true,
+    'rewrite' => array( 'slug' => 'products' ),
+    // https://developer.wordpress.org/resource/dashicons/
+    'menu_icon' => 'dashicons-cart',
+    'show_in_rest' => true
+  );
 
+  register_post_type( 'products' , $args );
+}
+
+add_action( 'init', 'taxonomies_category', 0 );
+function taxonomies_category() {
+  // Add new taxonomy, make it hierarchical (like categories)
+  $labels = array(
+    'name'              => 'Рубрика',
+    'singular_name'     => 'Рубрика',
+    'search_items'      => 'Найти',
+    'all_items'         => 'Все',
+    'parent_item'       => 'Родитель',
+    'parent_item_colon' => 'Родитель',
+    'edit_item'         => 'Редактировать',
+    'update_item'       => 'Обновить',
+    'add_new_item'      => 'Добавить',
+    'new_item_name'     => 'Добавить',
+    'menu_name'         => 'Рубрики',
+  );
+
+  $args = array(
+    'hierarchical'      => true,
+    'labels'            => $labels,
+    'show_ui'           => true,
+    'show_admin_column' => true,
+    'query_var'         => true,
+    'rewrite'           => array( 'slug' => 'categories' ),
+  );
+
+  register_taxonomy( 'categories', array( 'products' ), $args );
+}
 
 
 

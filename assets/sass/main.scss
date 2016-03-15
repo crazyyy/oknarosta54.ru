@@ -5484,3 +5484,39 @@ ul.postTabs {
     }
   }
 }
+
+.taxcats {
+  display: block;
+
+  width: 100%;
+  li {
+    text-align: center;
+    a {
+      font-size: 14px;
+      line-height: 28px;
+
+      display: block;
+
+      margin: 1em 0;
+      padding: 0 18px;
+
+      text-align: center;
+      text-decoration: none !important;
+
+      color: #fff;
+      border-color: #d34d4d;
+      border-radius: 6px;
+      background-color: #c00000;
+      background-image: url('../img/style-glass.png');
+      background-repeat: repeat-x;
+      text-shadow: 1px 1px 1px #c0c0b9;
+    }
+    &:hover {
+      a {
+        color: #fff;
+        border-color: #9a0000;
+        background-color: #c00000;
+      }
+    }
+  }
+}
