@@ -18,8 +18,10 @@
 
 // Place any jQuery/helper plugins in here.
 var impressumHeadin = $(".masonry-brick");
+var impressumHeadin2 = $(".products-listers li");
 
 SetAllBlocksHeight(impressumHeadin);
+SetAllBlocksHeight(impressumHeadin2);
 
 function SetAllBlocksHeight(containersNames) {
 

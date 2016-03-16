@@ -25,71 +25,8 @@
   <![endif]-->
   <!-- css + javascript -->
   <?php wp_head(); ?>
-
-
   <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-migrate.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/js/modernizr.js"></script>
-
-  <script src="<?php echo get_template_directory_uri(); ?>/js/jquery_form.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/jquery_infinite_scroll.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.js"></script>
-
-  <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.colorbox.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/prettify.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/voyage.js"></script>
-
-  <script>
-    jQuery(document).ready(function($) {
-      $(".carousel").carousel({
-        interval: 8000
-      })
-    });
-  </script>
-<!--   <script>
-    var metaslider_448 = function($) {
-      $('#metaslider_448').flexslider({
-        slideshowSpeed: 6000,
-        animation: "slide",
-        controlNav: false,
-        directionNav: true,
-        pauseOnHover: true,
-        direction: "horizontal",
-        reverse: false,
-        animationSpeed: 600,
-        prevText: "&lt;",
-        nextText: "&gt;",
-        easing: "linear",
-        slideshow: true
-      });
-    };
-    var timer_metaslider_448 = function() {
-      var slider = !window.jQuery ? window.setTimeout(timer_metaslider_448, 100) : !jQuery.isReady ? window.setTimeout(timer_metaslider_448, 1) : metaslider_448(window.jQuery);
-    };
-    timer_metaslider_448();
-  </script>
-  <script>
-    var metaslider_2551 = function($) {
-      $('#metaslider_2551').flexslider({
-        slideshowSpeed: 6000,
-        animation: "slide",
-        controlNav: false,
-        directionNav: false,
-        pauseOnHover: true,
-        direction: "horizontal",
-        reverse: false,
-        animationSpeed: 600,
-        prevText: "&lt;",
-        nextText: "&gt;",
-        easing: "linear",
-        slideshow: true
-      });
-    };
-    var timer_metaslider_2551 = function() {
-      var slider = !window.jQuery ? window.setTimeout(timer_metaslider_2551, 100) : !jQuery.isReady ? window.setTimeout(timer_metaslider_2551, 1) : metaslider_2551(window.jQuery);
-    };
-    timer_metaslider_2551();
-  </script> -->
 
 </head>
 
@@ -108,7 +45,7 @@
             <ul class="xoxo">
               <li id="execphp-2" class="widget-container widget_execphp">
                 <div class="execphpwidget">
-                  <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/main-img4.png" title="" border="0" height="124.79414455627" width="1100"></a>
+                  <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/main-img5.png" title="" border="0" height="125" width="1100"></a>
                 </div>
               </li>
             </ul>

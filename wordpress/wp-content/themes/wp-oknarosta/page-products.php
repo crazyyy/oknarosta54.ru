@@ -9,44 +9,22 @@
           </header>
           <div class="entry-content clearfix">
 
-
-
-
-<?php
-
-$term = get_field('main_cat');
-
-if( $term ): ?>
-
-  <div style="background:#<?php echo get_field('term_color', $term); ?>">
-
-    <h2><?php echo $term->name; ?></h2>
-    <p><?php echo $term->description; ?></p>
-
-  </div>
-
-<?php endif; ?>
-
-
-
-
-
-
-
-
           <?php
-
             $posts = get_field('producters');
-
             if( $posts ): ?>
-              <ul class="products-pr">
+              <ul class="products-listers">
               <?php foreach( $posts as $post ): // variable must NOT be called $post (IMPORTANT) ?>
-                  <li>
-                    <a href="<?php echo get_permalink( $p->ID ); ?>"><?php echo get_the_title( $p->ID ); ?></a>
-                    <span>Custom field from $post: <?php the_field('author', $p->ID); ?></span>
-                  </li>
+                <li>
+                  <a rel="nofollow" class="feature-img" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+                    <?php if ( has_post_thumbnail()) :
+                      the_post_thumbnail('medium');
+                    else: ?>
+                      <img src="<?php echo catchFirstImage(); ?>" title="<?php the_title(); ?>" alt="<?php the_title(); ?>" />
+                    <?php endif; ?>
+                  </a><!-- /post thumbnail -->
+                </li>
               <?php endforeach; ?>
-              </ul><!-- products-pr -->
+              </ul><!-- products-listers -->
             <?php endif; ?>
             <?php wp_reset_postdata(); ?>
 
@@ -65,6 +43,6 @@ if( $term ): ?>
       <?php endif; ?>
 
     </div>
-  <?php get_sidebar('products'); ?>
+  <?php get_sidebar('products-cat'); ?>
   </div><!-- #container -->
 <?php get_footer(); ?>

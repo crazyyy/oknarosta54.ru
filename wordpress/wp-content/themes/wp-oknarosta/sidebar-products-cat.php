@@ -6,6 +6,10 @@
 
       <?php
 
+$term = get_field('main_cat');
+
+
+
         //list terms in a given taxonomy using wp_list_categories (also useful as a widget if using a PHP Code plugin)
         $taxonomy     = 'categories';
         $orderby      = 'name';
@@ -14,17 +18,7 @@
         $hierarchical = 1;      // 1 for yes, 0 for no
         $title        = '';
 
-        $terms = get_the_terms( $post->ID, $taxonomy );
-        if ( !empty( $terms ) ){
-          // get the first term
-          $term = array_shift( $terms );
-          $term_id = $term->term_id;
-        }
 
-        $ancestors = get_ancestors( $term_id, $taxonomy ); // Get a list of ancestors
-        $ancestors = array_reverse($ancestors); //Reverse the array to put the top level ancestor first
-        $ancestors[0] ? $top_term_id = $ancestors[0] : $top_term_id = $term_id; //Check if there is an ancestor, else use id of current term
-        $term = get_term( $top_term_id, $taxonomy ); //Get the term
         $top_term_id = $term->term_id;
 
 
@@ -34,8 +28,8 @@
           'show_count'   => $show_count,
           'pad_counts'   => $pad_counts,
           'hierarchical' => $hierarchical,
-          'hide_empty'   => 1,
-          'child_of'     => $top_term_id,
+          'hide_empty'         => 0,
+          'child_of'           => $top_term_id,
           'title_li'     => $title
         );
       ?>

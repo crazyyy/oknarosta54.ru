@@ -102,7 +102,27 @@
   <!-- #wrapper -->
 
   <?php wp_footer(); ?>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/jquery_form.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/jquery_infinite_scroll.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.colorbox.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/prettify.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/voyage.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/owl.carousel.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
 
+<script>
+  var owl = $('.owl-carousel-top');
+  owl.owlCarousel({
+    items:1,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    nav:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true
+  });
+</script>
 
 </body>
 </html>
