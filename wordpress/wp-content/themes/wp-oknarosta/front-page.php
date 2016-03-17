@@ -54,7 +54,7 @@
             <tbody>
               <tr>
                 <td colspan="2">
-                  <h4 style="text-align: center;">
+                  <h4 style="text-align: center;" class="test">
                     <?php the_field('content_title'); ?>
                   </h4>
                   <?php the_content(); ?>
