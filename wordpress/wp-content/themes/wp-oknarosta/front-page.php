@@ -14,35 +14,24 @@
                 <td style="width: 8px; text-align: center;"></td>
                 <td style="width: 840px; text-align: center; vertical-align: top;" valign="middle">
                   <div style="width: 840px; height: 250px; box-shadow: 0 0 20px rgba(0,0,0,0.5); -moz-box-shadow: 0 0 20px rgba(0,0,0,0.5); -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);">
-                    <!-- meta slider -->
 
+                    <?php if( have_rows('top_slider') ): ?>
+                      <div class="owl-carousel-top metaslider metaslider-flex ml-slider nav-hidden">
 
-<div class="owl-carousel-top metaslider metaslider-flex metaslider-448 ml-slider nav-hidden">
-  <div class="item">
-    <a href="http://oknarosta54.ru/produktsiya/plastikovye-okna/eksk-otd/" target="_self">
-      <img draggable="false" src="<?php echo get_template_directory_uri(); ?>/img/eksklyuzivnye-podokonniki-840x250.jpg" alt="" class="slider-448 slide-5186" height="250" width="840">
-    </a>
-  </div>
-  <div class="item">
-                                <a href="http://oknarosta54.ru/rasprodazha-zhalyuzi-s-neveroyatnoj-skidkoj-50/" target="_self"><img draggable="false" src="<?php echo get_template_directory_uri(); ?>/img/baner-yarmarka-840x250.jpg" alt="" class="slider-448 slide-7186" height="250" width="840"></a>
-  </div>
-  <div class="item">
-                                <a href="http://oknarosta54.ru/produktsiya/rollety-rafshtory/rolletnye-sistemy/operativnyj-remont-rolstaven/" target="_self"><img draggable="false" src="<?php echo get_template_directory_uri(); ?>/img/skoraya-pomoshh-840x250.jpg" alt="" class="slider-448 slide-6291" height="250" width="840"></a>
-  </div>
-  <div class="item">
-                                <a href="http://oknarosta54.ru/gotovim-okna-k-zime/" target="_self"><img draggable="false" src="<?php echo get_template_directory_uri(); ?>/img/stop-holod-2-840x250.jpg" alt="" class="slider-448 slide-6404" height="250" width="840"></a>
-  </div>
-  <div class="item">
-                            <a href="http://oknarosta54.ru/produktsiya/plastikovye-okna/eksk-otd/" target="_self"><img draggable="false" src="<?php echo get_template_directory_uri(); ?>/img/eksklyuzivnye-podokonniki-840x250.jpg" alt="" class="slider-448 slide-5186" height="250" width="840"></a>
-  </div>
-  <div class="item">
-       <a href="http://oknarosta54.ru/rasprodazha-zhalyuzi-s-neveroyatnoj-skidkoj-50/" target="_self"><img draggable="false" src="<?php echo get_template_directory_uri(); ?>/img/baner-yarmarka-840x250.jpg" alt="" class="slider-448 slide-7186" height="250" width="840"></a>
-  </div>
+                        <?php while( have_rows('top_slider') ): the_row();
+                          // vars
+                          $image = get_sub_field('image');
+                          $link = get_sub_field('link');
+                        ?>
+                          <div class="item">
+                            <a href="<?php echo $link; ?>" target="_self">
+                              <img draggable="false" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" height="250" width="840">
+                            </a>
+                          </div>
+                        <?php endwhile; ?>
 
-</div>
-
-
-
+                      </div>
+                    <?php endif; ?>
 
                   </div>
                 </td>
@@ -63,38 +52,39 @@
               <tr>
                 <td style="width: 470px; text-align: center;">
                   <span style="color: #ff0000;"><strong>Отзывы о компании «Окна Роста»</strong></span>
-                  <div style="width: 440px; height: 175px; box-shadow: 0 0 20px rgba(0,0,0,0.5); -moz-box-shadow: 0 0 20px rgba(0,0,0,0.5); -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);">
-                    <!-- meta slider -->
-                    <div style="max-width: 440px;" class="metaslider metaslider-flex metaslider-2551 ml-slider nav-hidden nav-hidden">
+                  <div style="width: 440px; height: 175px; box-shadow: 0 0 20px rgba(0,0,0,0.5); -moz-box-shadow: 0 0 20px rgba(0,0,0,0.5); -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5); overflow: hidden;">
 
-                      <div id="metaslider_container_2551">
-                        <div id="metaslider_2551" class="flexslider">
 
-                          <div style="overflow: hidden; position: relative;" class="flex-viewport">
-                            <ul style="width: 1000%; transition-duration: 0.6s; transform: translate3d(-1320px, 0px, 0px);" class="slides">
-                              <li aria-hidden="true" style="display: block; width: 440px; float: left;" class="slide-2556 ms-image clone">
-                                <a href="<?php echo home_url(); ?>/otzyvy.htm" target="_self"><img draggable="false" src="<?php echo get_template_directory_uri(); ?>/img/otziv1-440x175.png" alt="" class="slider-2551 slide-2556" height="175" width="440"></a>
-                              </li>
-                              <li style="display: block; width: 440px; float: left;" class="slide-2558 ms-image">
-                                <a href="<?php echo home_url(); ?>/otzyvy.htm" target="_self"><img draggable="false" src="<?php echo get_template_directory_uri(); ?>/img/otziv3-440x175.png" alt="" class="slider-2551 slide-2558" height="175" width="440"></a>
-                              </li>
-                              <li style="display: block; width: 440px; float: left;" class="slide-2557 ms-image">
-                                <a href="<?php echo home_url(); ?>/otzyvy.htm" target="_self"><img draggable="false" src="<?php echo get_template_directory_uri(); ?>/img/otziv2-440x175.jpg" alt="" class="slider-2551 slide-2557" height="175" width="440"></a>
-                              </li>
-                              <li style="display: block; width: 440px; float: left;" class="slide-2556 ms-image flex-active-slide">
-                                <a href="<?php echo home_url(); ?>/otzyvy.htm" target="_self"><img draggable="false" src="<?php echo get_template_directory_uri(); ?>/img/otziv1-440x175.png" alt="" class="slider-2551 slide-2556" height="175" width="440"></a>
-                              </li>
-                              <li aria-hidden="true" style="display: block; width: 440px; float: left;" class="slide-2558 ms-image clone">
-                                <a href="<?php echo home_url(); ?>/otzyvy.htm" target="_self"><img draggable="false" src="<?php echo get_template_directory_uri(); ?>/img/otziv3-440x175.png" alt="" class="slider-2551 slide-2558" height="175" width="440"></a>
-                              </li>
-                            </ul>
+
+                  <?php if( have_rows('reviews', 26) ): ?>
+                    <div class="owl-carousel-bottom">
+                      <?php while( have_rows('reviews', 26) ): the_row();
+
+                        // vars
+                        $name = get_sub_field('name');
+                        $content = get_sub_field('content');
+                        $date = DateTime::createFromFormat('Ymd', get_sub_field('date'));
+                        $formateddate = $date->format('d.m.Y');
+
+                        ?>
+
+                          <div class="item">От:&nbsp;<?php echo $name; ?>
+                            <br> Отзыв:
+                            <br> <?php echo $content; ?>
+                            <br>
+                            <em><?php echo $formateddate; ?></em>
                           </div>
-                        </div>
 
-                      </div>
 
-                    </div>
-                    <!--// meta slider-->
+                      <?php endwhile; ?>
+                    </div><!-- /.owl-carousel-bottom -->
+                  <?php endif; ?>
+
+
+
+
+
+
                   </div>
                   <p class="read-all">
                     <a href="<?php echo home_url(); ?>/otzyvy.htm" class="su-button su-button-style-glass" target="_self">

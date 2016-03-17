@@ -76,16 +76,6 @@
         <div id="site-info" class="grid_8">
           &copy; <?php echo date("Y"); ?> Собственность <?php bloginfo('name'); ?>.
         </div>
-        <!-- #site-info -->
-<!--         <div id="footer-menu" class="grid_16" role="complementary">
-          <div class="footer-menu">
-            <ul id="menu-mob-versiya" class="menu">
-              <li id="menu-item-6352" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6352"><a href="http://m.oknarosta54.ru/">МОБИЛЬНАЯ ВЕРСИЯ САЙТА</a></li>
-            </ul>
-          </div>
-        </div> -->
-        <!-- #site-info -->
-
         <div id="site-generator" class="grid_8">
 
 
@@ -119,6 +109,16 @@
     margin:10,
     autoplay:true,
     nav:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true
+  });
+  var owl2 = $('.owl-carousel-bottom');
+  owl2.owlCarousel({
+    items:1,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    nav:false,
     autoplayTimeout:3000,
     autoplayHoverPause:true
   });
